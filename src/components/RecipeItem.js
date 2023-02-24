@@ -1,19 +1,19 @@
 function RecipeItem () {
     return (
-        <>
-            <h3>Name</h3>
+        <li>
+            <h3>Name of Drink</h3>
+            <p>Ingredients:</p>
             <ul>
-                <li>Ingredient</li>
-                <li>Ingredient</li>
-                <li>Ingredient</li>
+                <li>Ingredient one</li>
+                <li>Ingredient two</li>
+                <li>Ingredient three</li>
             </ul>
-            <ol>
-                <li>Instruction</li>
-                <li>Instruction</li>
-                <li>Instruction</li>
-            </ol>
-        </>
+            <p>Instructions:</p>
+            <ol>Instruction one</ol>
+            <ol>Instruction two</ol>
+            <ol>Instruction three</ol>
+        </li>
     )
 }
 
-export default Recipe
+export default RecipeItem
